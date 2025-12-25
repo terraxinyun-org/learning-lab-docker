@@ -1,0 +1,16 @@
+app = "test-lab-poc"
+primary_region = "sin"
+
+[build]
+
+[env]
+  PASSWORD = "test123"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1

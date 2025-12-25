@@ -1,0 +1,9 @@
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Fly.io
+.fly/
