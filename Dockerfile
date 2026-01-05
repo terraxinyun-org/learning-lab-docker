@@ -11,8 +11,8 @@ RUN apt-get update && apt-get install -y \
     npm \
     && rm -rf /var/lib/apt/lists/*
 
-# Install http-proxy for routing
-RUN npm install -g http-proxy
+# Install http-proxy for routing and Claude Code
+RUN npm install -g http-proxy @anthropic-ai/claude-code
 
 # Give coder user sudo access
 RUN echo "coder ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers

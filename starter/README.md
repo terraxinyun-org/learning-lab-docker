@@ -1,28 +1,36 @@
-# 🚀 Welcome to Your AI Learning Lab
+# Welcome to TerraXinyun AI Learning Lab
 
-## Step 1: Install Claude Code
+Claude Code is **pre-installed** and ready to use!
+
+## Quick Start
 
 Open the terminal (Ctrl + `) and run:
-
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-## Step 2: Login to Claude
-
-```bash
-claude login
-```
-
-## Step 3: Start Learning!
 
 ```bash
 claude
 ```
 
-Then try asking Claude to help you build something:
+## First Time Setup
+
+If prompted to login:
+
+```bash
+claude login
+```
+
+## Try These Commands
+
+Ask Claude to help you build something:
+
 - "Create a simple todo app"
 - "Build a calculator in Python"
 - "Explain how async/await works"
+- "Help me learn React basics"
 
-Happy learning! 🎉
+## Useful Tips
+
+- Press `Ctrl + C` to exit Claude
+- Type `/help` in Claude for more commands
+- Your work auto-saves in this environment
+
+Happy learning!
