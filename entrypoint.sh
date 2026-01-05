@@ -66,6 +66,9 @@ ROUTER_PID=$!
 # Wait a moment for router to start
 sleep 2
 
-# Start code-server on port 8081
+# Ensure starter folder exists
+mkdir -p /home/coder/starter
+
+# Start code-server on port 8081 with home directory (starter is subfolder)
 echo "Starting code-server on port 8081..."
-exec /usr/bin/code-server --bind-addr 0.0.0.0:8081 --auth password /home/coder/starter
+exec /usr/bin/code-server --bind-addr 0.0.0.0:8081 --auth password /home/coder
